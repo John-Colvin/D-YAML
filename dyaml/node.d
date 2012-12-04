@@ -1742,7 +1742,7 @@ package:
  * Params:  pairs   = Array of pairs to merge into.
  *          toMerge = Pair to merge.
  */ 
-void merge(ref Node.Pair[] pairs, Node.Pair toMerge)  @safe
+void merge(ref Node.Pair[] pairs, ref Node.Pair toMerge)  @safe
 {
     foreach(ref pair; pairs)
     {
